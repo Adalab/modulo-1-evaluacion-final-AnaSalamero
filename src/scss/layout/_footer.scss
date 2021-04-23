@@ -1,0 +1,38 @@
+.footer {
+  background-color: #304268;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  height: 465px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  &__menu1 {
+    text-align: center;
+    background-color: white;
+  }
+
+  &__menu2 {
+    text-align: center;
+    background-color: white;
+  }
+
+  &__small {
+    text-align: center;
+    word-spacing: 100vw;
+    line-height: 30px;
+    background-color: red;
+    font-size: 14px;
+    font-family: $font-main;
+    color: white;
+  }
+
+  &__links {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $font-main;
+    line-height: 30px;
+  }
+}
