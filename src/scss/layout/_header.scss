@@ -11,10 +11,11 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 53px;
 
   &__nav {
     background: #0271bc;
@@ -44,19 +45,20 @@
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    background-color: blue;
   }
 
   &__subtitle {
     color: white;
     font-size: 16px;
     line-height: 21px;
-    text-transform: capitalize;
     text-align: center;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 45px;
-    background-color: red;
+  }
+
+  &__subtitle::first-letter {
+    text-transform: uppercase;
   }
 }
 
@@ -65,9 +67,13 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  margin: auto;
+  position: relative;
 }
 
 .header__buttonimg {
-  display: block;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
