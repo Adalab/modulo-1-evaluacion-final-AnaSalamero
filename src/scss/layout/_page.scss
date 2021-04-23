@@ -39,3 +39,9 @@
 .insomnia__button {
   background-color: orange;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 5fr;
+  background-color: #eff9ff;
+}
