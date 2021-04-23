@@ -1,13 +1,15 @@
 .main {
-  padding-left: 15px;
-  padding-right: 15px;
   font-family: $font-main;
 
   &__insomnia {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    height: 376px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -22,22 +24,35 @@
   color: #000000;
   font-size: 24px;
   line-height: 30px;
-  height: 60px;
   font-family: "Roboto Slab", serif;
   text-transform: capitalize;
-  background-color: yellow;
   width: 100%;
-  word-spacing: 10vw; /*to fix*/
+  padding-top: 1px;
 }
 
 .insomnia__p {
   color: #4a4a4a;
   font-size: 18px;
   line-height: 30px;
+  padding-top: 15px;
 }
 
 .insomnia__button {
-  background-color: orange;
+  background-color: white;
+  margin-top: 30px;
+  width: 76px;
+  height: 45px;
+  border: #f26002 solid 2px;
+  border-radius: 22.5px;
+  margin-bottom: 45px;
+}
+
+.insomnia__buttonlink {
+  color: #f26002;
+  font-size: 20px;
+  line-height: 45px;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 .wrapper {
