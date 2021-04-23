@@ -1,0 +1,41 @@
+.main {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: $font-main;
+
+  &__insomnia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.insomnia__small {
+  color: #8ccbea;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.insomnia__title {
+  color: #000000;
+  font-size: 24px;
+  line-height: 30px;
+  height: 60px;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+  background-color: yellow;
+  width: 100%;
+  word-spacing: 10vw; /*to fix*/
+}
+
+.insomnia__p {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.insomnia__button {
+  background-color: orange;
+}
