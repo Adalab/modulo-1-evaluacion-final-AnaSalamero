@@ -47,5 +47,19 @@
 
   &__subtitle {
     color: white;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+  }
+
+  &__button {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 53px;
+    left: 138px;
+    right: 137px;
+    border-radius: 22.5px;
   }
 }
