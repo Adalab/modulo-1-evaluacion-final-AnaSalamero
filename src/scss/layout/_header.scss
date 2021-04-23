@@ -13,6 +13,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
 
   &__nav {
     background: #0271bc;
@@ -38,11 +40,11 @@
     color: #ffffff;
     font-size: 42px;
     line-height: 55px;
-    word-spacing: 100vw;
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: blue;
   }
 
   &__subtitle {
@@ -50,16 +52,22 @@
     font-size: 16px;
     line-height: 21px;
     text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    background-color: red;
   }
+}
 
-  &__button {
-    background-color: white;
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    bottom: 53px;
-    left: 138px;
-    right: 137px;
-    border-radius: 22.5px;
-  }
+.header__button {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.header__buttonimg {
+  display: block;
+  margin: auto;
 }
