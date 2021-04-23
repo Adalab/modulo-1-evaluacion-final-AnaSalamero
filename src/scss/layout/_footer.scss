@@ -7,22 +7,40 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  &__button {
+    position: absolute;
+    top: -22.5px;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  /*&__buttonlink {
+    background-color: red;
+    width: 20.6px;
+    height: 24px;
+  }*/
+
+  &__buttonimg {
+    display: block;
+    margin: auto;
+    transform: translateY(50%);
+  }
 
   &__menu1 {
     text-align: center;
-    background-color: white;
   }
 
   &__menu2 {
     text-align: center;
-    background-color: white;
   }
 
   &__small {
     text-align: center;
-    word-spacing: 100vw;
     line-height: 30px;
-    background-color: red;
     font-size: 14px;
     font-family: $font-main;
     color: white;
@@ -35,4 +53,12 @@
     font-family: $font-main;
     line-height: 30px;
   }
+
+  &__links a {
+    color: white;
+  }
+}
+
+.fas {
+  color: #f26002;
 }
