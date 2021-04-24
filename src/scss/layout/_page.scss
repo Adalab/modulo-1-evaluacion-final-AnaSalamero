@@ -11,6 +11,24 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  &__reasons {
+    height: 624px;
+    background-color: #eff9ff;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+
+  &__reasonstitle {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Roboto Slab", serif;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .insomnia__small {
@@ -55,8 +73,44 @@
   font-weight: 500;
 }
 
-.wrapper {
+//section 2
+
+.reasonswrapper {
   display: grid;
-  grid-template-rows: 5fr;
-  background-color: #eff9ff;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 45px;
+  text-align: center;
+  padding: 45px 70px 45px 70px;
+}
+
+.title3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+.preasons {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto";
+  height: 63px;
+}
+
+.reasonsbutton {
+  background-color: #f26002;
+  width: 184px;
+  height: 45px;
+  border: #f26002 solid 2px;
+  border-radius: 22.5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reasonsbuttonlink {
+  color: white;
+  font-size: 20px;
+  line-height: 45px;
+  font-family: "Roboto";
+  font-weight: 500;
 }
