@@ -18,11 +18,11 @@
     border-radius: 50%;
   }
 
-  /*&__buttonlink {
+  &__buttonlink {
     background-color: red;
     width: 20.6px;
     height: 24px;
-  }*/
+  }
 
   &__buttonimg {
     display: block;
@@ -61,4 +61,50 @@
 
 .fas {
   color: #f26002;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: 240px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer__menu1 {
+    text-align: left;
+    width: 210px;
+    padding-right: 30px;
+    box-sizing: content-box;
+  }
+
+  .footer__menu2 {
+    text-align: left;
+    width: 210px;
+    box-sizing: content-box;
+  }
+
+  .container2 {
+    width: 210px;
+    text-align: left;
+    padding-right: 30px;
+    box-sizing: content-box;
+  }
+
+  .footer__small {
+    text-align: left;
+  }
 }
