@@ -17,6 +17,12 @@
   padding-right: 15px;
   padding-bottom: 53px;
 
+  @media (min-width: 1280px) {
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-bottom: 13px;
+  }
+
   &__nav {
     background: #0271bc;
     width: 44px;
@@ -50,6 +56,13 @@
       font-size: 80px;
       line-height: 106px;
     }
+
+    @media (min-width: 1280px) {
+      font-size: 100px;
+      line-height: 132px;
+      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+      word-spacing: 100vw;
+    }
   }
 
   &__subtitle {
@@ -62,6 +75,11 @@
     padding-bottom: 45px;
     @media (min-width: 768px) {
       font-size: 24px;
+    }
+    @media (min-width: 1280px) {
+      padding-top: 0px;
+      padding-bottom: 30px;
+      line-height: 32px;
     }
   }
 
