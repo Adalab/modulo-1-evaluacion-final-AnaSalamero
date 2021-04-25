@@ -16,6 +16,13 @@
       padding-left: 39px;
       padding-right: 39px;
     }
+
+    @media (min-width: 1280px) {
+      height: 360px;
+      padding-top: 60px;
+      padding-left: 275px;
+      padding-right: 275px;
+    }
   }
 
   &__reasons {
@@ -28,6 +35,10 @@
       height: 397px;
       padding-left: 0px;
       padding-right: 0px;
+    }
+    @media (min-width: 1280px) {
+      height: 427px;
+      padding-top: 60px;
     }
   }
 
@@ -46,6 +57,11 @@
       padding-left: 158px;
       padding-right: 160px;
     }
+    @media (min-width: 1280px) {
+      font-size: 32px;
+      padding-left: 275px;
+      padding-right: 275px;
+    }
   }
 }
 
@@ -54,6 +70,10 @@
   font-size: 14px;
   line-height: 30px;
   text-transform: capitalize;
+
+  @media (min-width: 1280px) {
+    font-size: 16px;
+  }
 }
 
 .insomnia__title {
@@ -67,6 +87,9 @@
   @media (min-width: 768px) {
     font-size: 26px;
     line-height: 45px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 32px;
   }
 }
 
@@ -92,6 +115,9 @@
   @media (min-width: 768px) {
     margin-bottom: 60px;
     width: 91px;
+  }
+  @media (min-width: 1280px) {
+    width: 160px;
   }
 }
 
@@ -121,6 +147,12 @@
     column-gap: 30px;
     row-gap: 14px;
   }
+
+  @media (min-width: 1280px) {
+    padding-right: 85px;
+    padding-left: 81.2px;
+    column-gap: 26.2px;
+  }
 }
 
 .title3 {
@@ -130,6 +162,9 @@
   @media (min-width: 768px) {
     padding-bottom: 14px;
   }
+  @media (min-width: 1280px) {
+    font-size: 24px;
+  }
 }
 
 .preasons {
@@ -137,6 +172,10 @@
   line-height: 30px;
   font-family: "Roboto";
   height: 63px;
+  @media (min-width: 1280px) {
+    font-size: 20px;
+    height: 68px;
+  }
 }
 
 .reasonsbutton {
@@ -148,6 +187,9 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  @media (min-width: 1280px) {
+    width: 245px;
+  }
 }
 
 .reasonsbuttonlink {
@@ -156,4 +198,7 @@
   line-height: 45px;
   font-family: "Roboto";
   font-weight: 500;
+  @media (min-width: 1280px) {
+    text-transform: capitalize;
+  }
 }

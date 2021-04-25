@@ -108,3 +108,23 @@
     text-align: left;
   }
 }
+
+@media (min-width: 1280px) {
+  .footer {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
+
+  .footer__menu1 {
+    width: 161px;
+  }
+
+  .footer__menu2 {
+    width: 159px;
+  }
+
+  .container2 {
+    width: 159px;
+    padding-right: 31px;
+  }
+}
