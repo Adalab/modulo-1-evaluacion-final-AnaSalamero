@@ -1,5 +1,4 @@
 .header {
-  height: 100vh;
   font-family: $font-main;
 }
 
@@ -30,6 +29,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 1;
   }
 
   &__link {
@@ -73,9 +73,11 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 45px;
+
     @media (min-width: 768px) {
       font-size: 24px;
     }
+
     @media (min-width: 1280px) {
       padding-top: 0px;
       padding-bottom: 30px;
