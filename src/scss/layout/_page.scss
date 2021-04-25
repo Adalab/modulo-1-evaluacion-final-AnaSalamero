@@ -24,6 +24,11 @@
     padding-top: 30px;
     padding-bottom: 60px;
     position: relative;
+    @media (min-width: 768px) {
+      height: 397px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
   }
 
   &__reasonstitle {
@@ -34,6 +39,13 @@
     font-family: "Roboto Slab", serif;
     padding-left: 15px;
     padding-right: 15px;
+
+    @media (min-width: 768px) {
+      font-size: 26px;
+      line-height: 45px;
+      padding-left: 158px;
+      padding-right: 160px;
+    }
   }
 }
 
@@ -99,6 +111,16 @@
   row-gap: 45px;
   text-align: center;
   padding: 45px 70px 45px 70px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 38px;
+    column-gap: 30px;
+    row-gap: 14px;
+  }
 }
 
 .title3 {
