@@ -11,10 +11,15 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 53px;
+
+  @media (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 45px;
+  }
 
   @media (min-width: 1280px) {
     padding-left: 275px;
@@ -29,27 +34,25 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 1;
+    z-index: 1; //to keep over the other sections
   }
 
-  &__link {
-    line-height: 44px;
+  // HERO --> HERO__NAV
+
+  &__navlink {
+    line-height: 44px; //to center the menu inside the div
     padding: 15px 14px;
   }
 
-  &__navimg {
-    width: 16px;
-    height: 14px;
-  }
+  // HERO --> HERO__WRAP
 
-  &__title {
+  &__wraptitle {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 42px;
     line-height: 55px;
     text-align: center;
     font-family: "Roboto Slab", serif;
-    font-weight: bold;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 
     @media (min-width: 768px) {
@@ -60,12 +63,11 @@
     @media (min-width: 1280px) {
       font-size: 100px;
       line-height: 132px;
-      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-      word-spacing: 100vw;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
   }
 
-  &__subtitle {
+  &__wrapsubtitle {
     color: white;
     font-size: 16px;
     line-height: 21px;
@@ -76,32 +78,34 @@
 
     @media (min-width: 768px) {
       font-size: 24px;
+      line-height: 32px;
+      padding-top: 20px;
+      padding-bottom: 30px;
     }
 
     @media (min-width: 1280px) {
       padding-top: 0px;
-      padding-bottom: 30px;
-      line-height: 32px;
     }
   }
 
-  &__subtitle::first-letter {
+  &__wrapsubtitle::first-letter {
     text-transform: uppercase;
   }
-}
 
-.header__button {
-  background-color: white;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  margin: auto;
-  position: relative;
-}
+  &__wrapbutton {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+  }
 
-.header__buttonimg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  &__wrapbuttonimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+  }
 }
