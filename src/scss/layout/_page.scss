@@ -127,6 +127,16 @@
   line-height: 45px;
   font-family: "Roboto";
   font-weight: 500;
+
+  @media (min-width: 1280px) {
+    padding: 13px 62.5px 10px 62.5px;
+  }
+}
+
+.insomnia__button:hover {
+  background-color: #8ccbea;
+  border: #8ccbea solid 2px;
+  transition: background-color ease 1s;
 }
 
 //section 2
@@ -200,5 +210,12 @@
   font-weight: 500;
   @media (min-width: 1280px) {
     text-transform: capitalize;
+    padding: 13px 56px 10px 56px;
   }
+}
+
+.reasonsbutton:hover {
+  background-color: #304268;
+  border: #304268 solid 2px;
+  transition: background-color ease 1s;
 }

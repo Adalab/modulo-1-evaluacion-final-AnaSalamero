@@ -1,3 +1,13 @@
+@keyframes moveup {
+  from {
+    top: -22.5px;
+  }
+
+  to {
+    top: -25.5px;
+  }
+}
+
 .footer {
   background-color: #304268;
   padding-top: 60px;
@@ -16,6 +26,7 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    animation: moveup 3s infinite;
   }
 
   &__buttonlink {
