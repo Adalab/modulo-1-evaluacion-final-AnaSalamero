@@ -48,7 +48,7 @@
     display: block;
     margin: auto;
     transform: translateY(50%);
-    padding-bottom: 2px;
+    padding-bottom: 2px; //extra-padding in order to improve ux
   }
 
   // FOOTER --> FOOTER CONTAINER
@@ -120,6 +120,10 @@
 
   &__links a {
     color: white;
+  }
+
+  &__linksitem {
+    padding: 5px;
   }
 
   &__small {
