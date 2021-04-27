@@ -25,6 +25,29 @@
     }
   }
 
+  &__pricing {
+    background-color: #304268;
+    color: white;
+  }
+
+  &__pricingtitle {
+    text-align: center;
+  }
+
+  &__pricingcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
   &__reasons {
     height: 624px;
     background-color: #eff9ff;
